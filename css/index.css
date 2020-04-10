@@ -1,10 +1,42 @@
+.page_head {
+    text-align: center;
+}
+
 .page_head_image {
     margin: 0% 12.5%;
     width: 75px;
     height: 75px;
-    background-image: url('../Images/_logo.png');
     background-size: 100% 100%;
     display: inline-block;
+}
+
+@media screen and (min-width: 751px) {
+    .page_head_image {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 864px) {
+    #logo {
+        background-image: url('../Images/_logo.png');
+    }
+    #face {
+        background-image: url('../Images/_face.jpg');
+        border-radius: 100%;
+    }
+}
+
+
+/*css if statement says if it renders to a screen and the width is 751 or higher*/
+
+@media screen and (min-width: 1300px) {
+    .bubble {
+        width: 15%;
+        display: inline-block;
+    }
+    .odd {
+        margin-left: 45%;
+    }
 }
 
 #name {
