@@ -1,15 +1,3 @@
-.page_head {
-    text-align: center;
-}
-
-.page_head_image {
-    margin: 0% 12.5%;
-    width: 75px;
-    height: 75px;
-    background-size: 100% 100%;
-    display: inline-block;
-}
-
 @media screen and (min-width: 751px) {
     .page_head_image {
         display: inline-block;
@@ -28,22 +16,3 @@
 
 
 /*css if statement says if it renders to a screen and the width is 751 or higher*/
-
-@media screen and (min-width: 1300px) {
-    .bubble {
-        width: 15%;
-        display: inline-block;
-    }
-    .odd {
-        margin-left: 45%;
-    }
-}
-
-#name {
-    display: inline-block;
-}
-
-a {
-    font-size: large;
-    columns: black;
-}
