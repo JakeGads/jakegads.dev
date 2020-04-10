@@ -7,7 +7,8 @@
 }
 
 .nav_links {
-    margin: 5%;
+    margin: 1% 6%;
+    display: inline-block;
 }
 
 body {
@@ -107,6 +108,10 @@ body {
         padding: 2%;
         margin: 2% 3%;
         text-align: center;
+    }
+    #colorMode {
+        margin-left: 40%;
+        width: 15%;
     }
 }
 
