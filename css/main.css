@@ -1,0 +1,91 @@
+.nav_links {
+    margin: 5%;
+}
+
+body {
+    background-repeat: repeat-y;
+}
+
+.rounded_nav {
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.page_head {
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.rounded_footer {
+    border-radius: 10px;
+    background: white;
+    padding: 6px;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.bubbles_container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bubble {
+    border-radius: 10px;
+    background: white;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/*Here there is 90% of the screen left this should form a ratio*/
+
+.even {
+    margin-left: 75%;
+}
+
+.odd {
+    margin-left: 15%;
+}
+
+.footer_logo {
+    width: 50px;
+    height: 50px;
+    margin: 0% 7.5%;
+    background-image: url('../Images/_logo.png');
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+#credits {
+    padding-top: 1%;
+    text-align: center;
+}
+
+#twitter {
+    background-image: url("../Images/socialmedia_links/twitter.png");
+}
+
+#devto {
+    background-image: url("../Images/socialmedia_links/devto.png");
+}
+
+#linkedin {
+    background-image: url("../Images/socialmedia_links/linkedin.png");
+}
+
+#github {
+    background-image: url("../Images/socialmedia_links/github.png");
+}

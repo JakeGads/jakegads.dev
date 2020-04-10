@@ -1,0 +1,17 @@
+.page_head_image {
+    margin: 0% 12.5%;
+    width: 75px;
+    height: 75px;
+    background-image: url('../Images/_logo.png');
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+#name {
+    display: inline-block;
+}
+
+a {
+    font-size: large;
+    columns: black;
+}
