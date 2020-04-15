@@ -1,9 +1,11 @@
-/*jslint es6:true*/
+/*
+jslint es6:true
+*/
 
 
 document.body.background = "../Images/wall.jpg";
 
-light_mode = new Date().getHours() >= 20;
+light_mode = new Date().getHours() >= 20 || new Date().getHours() < 8;
 
 mode = document.getElementById("colorMode");
 
