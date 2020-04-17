@@ -15,7 +15,7 @@
     /*MODAL*/
     .bg-modal {
         background-color: rgba(0, 0, 0, 0.8);
-        width: 100%;
+        width: 99%;
         height: 175%;
         position: absolute;
         top: 0;
@@ -47,6 +47,9 @@
         color: #333;
         transform: rotate(45deg);
         cursor: pointer;
+    }
+    textarea {
+        width: 50%
     }
 }
 
