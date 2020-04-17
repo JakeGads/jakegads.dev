@@ -6,7 +6,6 @@ jslint es6:true
 document.body.background = "../Images/wall.jpg";
 
 light_mode = new Date().getHours() >= 20 || new Date().getHours() < 8;
-
 mode = document.getElementById("colorMode");
 
 function swap() {
@@ -23,8 +22,10 @@ function set() {
         recolor(document.getElementsByClassName("page_head"), "white", "#5A4F4F");
         recolor(document.getElementsByClassName("bubble"), "white", "#5A4F4F");
         recolor(document.getElementsByClassName("rounded_footer"), "white", "#5A4F4F");
+        recolor(document.getElementsByClassName("modal-contents"), "white", "#5A4F4F");
         recolor(document.getElementsByClassName("nav_links"), "white", false);
         recolor(document.getElementsByTagName("a"), "white", false);
+
     } else {
         document.body.background = "../Images/wall.jpg";
         mode.innerHTML = "<h2>Light Mode</h2>";
@@ -33,8 +34,9 @@ function set() {
         recolor(document.getElementsByClassName("page_head"), "black", "white");
         recolor(document.getElementsByClassName("bubble"), "black", "white");
         recolor(document.getElementsByClassName("rounded_footer"), "black", "white");
+        recolor(document.getElementsByClassName("model-contents"), "black", false);
         recolor(document.getElementsByClassName("nav_links"), "black", false);
-        recolor(document.getElementsByTag("a"), "white", false);
+        recolor(document.getElementsByTag("a"), "black", false);
     }
 }
 
@@ -49,4 +51,4 @@ function recolor(array, textColor, backgroundColor) {
     }
 };
 
-swap();
+set();
