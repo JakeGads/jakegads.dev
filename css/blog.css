@@ -1,10 +1,21 @@
-.bubble {
-    margin-left: 11%;
-    margin-right: 5%;
+@media screen and (min-width: 751px) {
+    .bubble {
+        margin-left: 11%;
+        margin-right: 5%;
+    }
+    #colorMode {
+        margin-left: 42%;
+    }
 }
 
-#colorMode {
-    margin-left: 42%;
+@media screen and (max-width: 751px) {
+    .bubble {
+        margin-left: 11%;
+        margin-right: 5%;
+    }
+    #colorMode {
+        margin-left: 42%;
+    }
 }
 
 .text {
