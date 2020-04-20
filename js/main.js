@@ -11,7 +11,7 @@ mode = document.getElementById("colorMode");
 function swap() {
     light_mode = !light_mode;
     set();
-};
+}
 
 function set() {
     if (light_mode) {
@@ -34,14 +34,14 @@ function set() {
         recolor(document.getElementsByClassName("page_head"), "black", "white");
         recolor(document.getElementsByClassName("bubble"), "black", "white");
         recolor(document.getElementsByClassName("rounded_footer"), "black", "white");
-        recolor(document.getElementsByClassName("model-contents"), "black", false);
+        recolor(document.getElementsByClassName("model-contents"), "black", "white");
         recolor(document.getElementsByClassName("nav_links"), "black", false);
         recolor(document.getElementsByTag("a"), "black", false);
     }
 }
 
 function recolor(array, textColor, backgroundColor) {
-    for (i of array) {
+    for (let i of array) {
         if (backgroundColor) {
             i.style.backgroundColor = backgroundColor;
         }
@@ -49,6 +49,6 @@ function recolor(array, textColor, backgroundColor) {
             i.style.color = textColor;
         }
     }
-};
+}
 
 set();

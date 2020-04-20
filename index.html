@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/index.css" rel="stylesheet" type="text/css">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body id="body">
@@ -100,6 +102,21 @@
         <div class="modal-contents">
             <div class="close">+</div>
             <form action="">
+                <input id=n ame type="text" placeholder="Name">
+                <input id="email" type="email" placeholder="E-Mail">
+                <textarea id="message" type="textarea" placeholder="Your Message"></textarea>
+                <br><br>
+                <a href="#" class="button" onclick="sendEmail()">Submit</a>
+            </form>
+        </div>
+    </div>
+
+    <!--
+        I want to use this but I'd have to create a better backend for it to work correctly 
+        <div class="bg-modal">
+        <div class="modal-contents">
+            <div class="close">+</div>
+            <form action="">
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="E-Mail">
                 <textarea type="textarea" placeholder="Your Message"></textarea>
@@ -109,6 +126,7 @@
 
         </div>
     </div>
+ -->
 
 </body>
 <script src="js/main.js"></script>
