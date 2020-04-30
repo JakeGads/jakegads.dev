@@ -1,2 +1,3 @@
 # Website
-My pulbic website hosted with linode (see readme for link)
+video link: https://youtu.be/i02bW0FAZoc
+live  link: http://45.33.70.153/
