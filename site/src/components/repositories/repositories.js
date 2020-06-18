@@ -40,7 +40,7 @@ class Repositories extends React.Component {
                       <a 
                         className='repositories__repo-link' 
                         href={repo.html_url}
-                        target="_blank"
+                        // target="_blank"
                       >
                         <strong>{repo.name}</strong>
                       </a>
@@ -60,7 +60,7 @@ class Repositories extends React.Component {
               <div className="repositories_user-link">
                 <a 
                   href={`https://github.com/${siteConfig.githubUsername}`}
-                  target="_blank"
+                  //target="_blank"
                 >
                   See all my repositories
                   <GoLinkExternal style={{ marginLeft: 8 }} />

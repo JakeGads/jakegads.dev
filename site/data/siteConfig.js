@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Jake!',
+  siteTitle: 'Jake Gadaleta',
   siteDescription: `A personal portfolio website`,
   keyWords: ['curriculum'],
   authorName: 'Jake Gadaleta',
@@ -63,7 +63,17 @@ module.exports = {
       occupation: "Senior Resident Advisor",
       description: "Along with continuing the work below I also: created schedules for fellow RA's (see the repo below), and I work along side other Senior Resident Advisors to plan wide-scale overarching events "
   
-    },{
+    }, {
+      company: "Lansdale Catholic Robotics",
+      begin: {
+        month: 'June',
+        year: '2019'
+      },
+      duration: 'Present',
+      occupation: "Tune Up In PA Chairperson",
+      description: "In this position I created a python application that generates a schedule for 40+ teams, I also managed the judging portion of the competition and had 20+ people reporting to me."
+    },
+    {
       company: "DeSales University Office of Residents Life",
       begin: {
         month: 'Fall',
@@ -95,15 +105,6 @@ module.exports = {
       company: "Lansdale Catholic Robotics",
       begin: {
         month: 'June',
-        year: '2019'
-      },
-      duration: 'Present',
-      occupation: "Tune Up In PA Chairperson",
-      description: "In this volunteer position <br> I teach highschool students to use statistical analysis to improve robotics competition results and guide them in using java/python to create tools to automate decision making during those competitions"
-    }, {
-      company: "Lansdale Catholic Robotics",
-      begin: {
-        month: 'June',
         year: '2017'
       },
       duration: 'Present',
@@ -130,7 +131,7 @@ module.exports = {
     github: "https://github.com/gadzygadz",
     email: "jake.gads@gmail.com"
   },
-  siteUrl: '',
+  siteUrl: 'https://jakegads.dev',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
