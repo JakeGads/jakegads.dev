@@ -113,15 +113,11 @@ module.exports = {
     }
   ],
   portifolio: [
+    // here is where we will add
     {
       image: "/images/gatsby-starter-cv.png",
       description: "Gatsby starter CV template",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
     },
     /* more portifolio items here */
   ],
@@ -138,7 +134,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/logo.png',
   headerLinks: [
     {
       label: 'Home',
