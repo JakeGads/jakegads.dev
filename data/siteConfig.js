@@ -79,7 +79,7 @@ module.exports = {
         month: 'Fall',
         year: '2018'
       },
-      duration: 'Present',
+      duration: 'Promotion| Fall 2019',
       occupation: "Resident Advisor",
       description: "I work alongside other RAs to provide a safe, healthy, and fun environment for residents. This includes planning events/activities for residents on a monthly basis."
   
@@ -98,7 +98,7 @@ module.exports = {
         month: 'Fall',
         year: '2017'
       },
-      duration: '2 yr',
+      duration: 'Promotion| Fall 2018',
       occupation: "Student Ambassador",
       description: "I maintained a campus wide IT system composed of various models and operating systems."
     }, {
@@ -129,7 +129,7 @@ module.exports = {
   },
   siteUrl: 'https://jakegads.dev',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/HTML.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#7d7777',
   theme_color: '#000000',
