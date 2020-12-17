@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Jake Gadaleta","short_name":"Jake Gadaleta","start_url":"/gatsby-starter-cv","background_color":"#7d7777","theme_color":"#000000","display":"minimal-ui","icon":"src/assets/logo.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":null},
+      options: {"plugins":[],"name":"Jake Gadaleta","short_name":"Jake Gadaleta","start_url":"/gatsby-starter-cv","background_color":"#7d7777","theme_color":"#000000","display":"minimal-ui","icon":"src/assets/logo.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"a37efe012984ec79ee39e1bef08d58da"},
     },{
       plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
