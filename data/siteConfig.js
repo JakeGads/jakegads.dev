@@ -79,7 +79,7 @@ module.exports = {
         month: 'Fall',
         year: '2018'
       },
-      duration: 'Promotion| Fall 2019',
+      duration: 'Promotion | Fall 2019',
       occupation: "Resident Advisor",
       description: "I work alongside other RAs to provide a safe, healthy, and fun environment for residents. This includes planning events/activities for residents on a monthly basis."
   
@@ -98,7 +98,7 @@ module.exports = {
         month: 'Fall',
         year: '2017'
       },
-      duration: 'Promotion| Fall 2018',
+      duration: 'Promotion | Fall 2018',
       occupation: "Student Ambassador",
       description: "I maintained a campus wide IT system composed of various models and operating systems."
     }, {
@@ -110,7 +110,17 @@ module.exports = {
       duration: 'Present',
       occupation: "Lead Mentor of Data Management and Analysis",
       description: "In this volunteer position I teach highschool students to use statistical analysis to improve robotics competition results and guide them in using java/python to create tools to automate decision making during those competitions"
+    },{
+      company: "DeSales University",
+      begin: {
+        month: 'Aug',
+        year: '2017'
+      },
+      duration: 'Present',
+      occupation: "Relevant Course Work",
+      description: ["Intro to Computer Science", "Object Oriented Programing", "Database: Analysis & Design"] 
     }
+
   ],
   portifolio: [
     // here is where we will add

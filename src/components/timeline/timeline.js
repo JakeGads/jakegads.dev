@@ -3,6 +3,21 @@ import styled from 'styled-components'
 import { config } from 'react-awesome-styled-grid'
 import siteConfig from '../../../data/siteConfig'
 
+function smart_p(obj){
+  
+  if(Array.isArray(obj)){
+    
+    return <p>
+      {obj[0]} <br></br>
+      {obj[1]} <br></br>
+      {obj[2]} <br></br>
+    </p>
+  
+  }
+
+  return <p>{obj}</p>
+}
+
 const Timeline = ({ className }) => (
   <div className={className}>
     <h1>Experience</h1>
@@ -26,7 +41,7 @@ const Timeline = ({ className }) => (
                 ({job.duration || 'present'})
               </small>
             </h2>
-            <p>{job.description}</p>
+            {smart_p(job.description)}
           </div>
         </div>
       </article>
