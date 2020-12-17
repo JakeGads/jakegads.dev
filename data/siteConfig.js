@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Jake Gadaleta',
   twitterUsername: 'gadzygadz',
   githubUsername: 'gadzygadz',
-  authorAvatar: '/images/avatar.jpeg',
+  authorAvatar: '/images/avatar.png',
   authorDescription: `Full Stack Dev, currently working as an intern and planning on expanding into full time in May of 2021, 
   <br><br> I love writing code, I spend all day in .NET and angular when at work and when at home I love working in Python and React. I've spent a lot of time working with Linux and use it as my daily driver`,
   skills: [
@@ -129,7 +129,7 @@ module.exports = {
   },
   siteUrl: 'https://jakegads.dev',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/HTML.jpg',
+  siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#7d7777',
   theme_color: '#000000',

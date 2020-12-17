@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
 import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
+import loadable from '@loadable/component'
 
-import Layout from '../components/layout'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
@@ -14,18 +14,16 @@ import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
 
-import { animateOnScroll } from '../utils/isVisible'
+const Layout = loadable(() => import('../components/layout'))
 
 const Separator = styled.hr`
   margin-top: 24px;
   margin-bottom: 16px;
+  background-color: ${({ theme }) => theme.colors.fontColor};
+  opacity: .2;
 `
 
 const Home = ({ className, location }) => {
-  useEffect(() => {
-    animateOnScroll()
-  }, [])
-  
   // validate siteConfig settings
   if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
     console.error('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');

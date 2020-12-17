@@ -40,7 +40,7 @@ class Repositories extends React.Component {
                       <a 
                         className='repositories__repo-link' 
                         href={repo.html_url}
-                        // target="_blank"
+                        target="_blank"
                       >
                         <strong>{repo.name}</strong>
                       </a>
@@ -60,7 +60,7 @@ class Repositories extends React.Component {
               <div className="repositories_user-link">
                 <a 
                   href={`https://github.com/${siteConfig.githubUsername}`}
-                  //target="_blank"
+                  target="_blank"
                 >
                   See all my repositories
                   <GoLinkExternal style={{ marginLeft: 8 }} />
@@ -86,7 +86,7 @@ export default styled(Repositories)`
   .repositories__repo-link,
   .repositories_user-link a {
     text-decoration: none;
-    color: #25303B;
+    color: ${({ theme }) => theme.colors.primary};
     display: flex;
     align-items: center;
   }
@@ -97,7 +97,6 @@ export default styled(Repositories)`
   }
 
   .repositories__repo-date {
-    color: #bbb;
     font-size: 10px;
   }
 
@@ -118,6 +117,8 @@ export default styled(Repositories)`
 
   hr {
     margin-top: 16px;
+    background-color: ${({ theme }) => theme.colors.fontColor};
+    opacity: .2;
   }
 
 `
