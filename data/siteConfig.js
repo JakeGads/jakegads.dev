@@ -110,17 +110,7 @@ module.exports = {
       duration: 'Present',
       occupation: "Lead Mentor of Data Management and Analysis",
       description: "In this volunteer position I teach highschool students to use statistical analysis to improve robotics competition results and guide them in using java/python to create tools to automate decision making during those competitions"
-    },{
-      company: "DeSales University",
-      begin: {
-        month: 'Aug',
-        year: '2017'
-      },
-      duration: 'Present',
-      occupation: "Relevant Course Work",
-      description: ["Intro to Computer Science", "Object Oriented Programing", "Database: Analysis & Design"] 
     }
-
   ],
   portifolio: [
     // here is where we will add
