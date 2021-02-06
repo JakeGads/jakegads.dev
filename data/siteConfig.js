@@ -107,7 +107,7 @@ module.exports = {
         month: 'June',
         year: '2017'
       },
-      duration: 'Present',
+      duration: 'Role Change | Winter 2020',
       occupation: "Lead Mentor of Data Management and Analysis",
       description: "In this volunteer position I teach highschool students to use statistical analysis to improve robotics competition results and guide them in using java/python to create tools to automate decision making during those competitions"
     }
