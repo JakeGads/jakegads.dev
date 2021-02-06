@@ -1,18 +1,15 @@
 var plugins = [{
+      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-111111111-1","head":true},
+    },{
       plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Jake Gadaleta","short_name":"Jake Gadaleta","start_url":"/gatsby-starter-cv","background_color":"#7d7777","theme_color":"#000000","display":"minimal-ui","icon":"src/assets/logo.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"3f9836865897e77877bb1214a5c38c5d"},
-    },{
-      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-000000000-1"},
-    },{
-      plugin: require('/Users/jakeg/source/repo/jakegads.dev/gatsby-ssr'),
-      options: {"plugins":[]},
+      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["IBM Plex Mono"],"display":"swap"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
