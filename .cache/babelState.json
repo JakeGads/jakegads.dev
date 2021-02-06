@@ -3,12 +3,8 @@
     "develop": {
       "plugins": [
         {
-          "name": "babel-plugin-styled-components",
-          "stage": "develop",
-          "options": {
-            "plugins": [],
-            "ssr": false
-          }
+          "name": "babel-plugin-lodash",
+          "options": {}
         },
         {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
@@ -27,7 +23,10 @@
         {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -39,6 +38,10 @@
     "develop-html": {
       "plugins": [
         {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -49,21 +52,16 @@
         {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
-        },
-        {
-          "name": "babel-plugin-styled-components",
-          "stage": "develop-html",
-          "options": {
-            "plugins": [],
-            "ssr": false
-          }
         }
       ],
       "presets": [
         {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -75,6 +73,10 @@
     "build-html": {
       "plugins": [
         {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -85,21 +87,16 @@
         {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
-        },
-        {
-          "name": "babel-plugin-styled-components",
-          "stage": "build-html",
-          "options": {
-            "plugins": [],
-            "ssr": true
-          }
         }
       ],
       "presets": [
         {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -111,6 +108,10 @@
     "build-javascript": {
       "plugins": [
         {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -121,21 +122,16 @@
         {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
-        },
-        {
-          "name": "babel-plugin-styled-components",
-          "stage": "build-javascript",
-          "options": {
-            "plugins": [],
-            "ssr": true
-          }
         }
       ],
       "presets": [
         {
           "name": "/Users/jakeg/source/repo/jakegads.dev/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
