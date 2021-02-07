@@ -8,6 +8,7 @@ exports.components = {
   "component---src-pages-experience-js": () => import("./../../../src/pages/experience.js" /* webpackChunkName: "component---src-pages-experience-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-interests-js": () => import("./../../../src/pages/interests.js" /* webpackChunkName: "component---src-pages-interests-js" */),
+  "component---src-pages-project-js": () => import("./../../../src/pages/project.js" /* webpackChunkName: "component---src-pages-project-js" */),
   "component---src-pages-skills-js": () => import("./../../../src/pages/skills.js" /* webpackChunkName: "component---src-pages-skills-js" */)
 }
 

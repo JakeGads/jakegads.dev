@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-111111111-1","head":true},
+      plugin: require('/home/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-111111111-1","head":true,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     },{
-      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[]},
+      plugin: require('/home/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
     },{
-      plugin: require('/Users/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('/home/jakeg/source/repo/jakegads.dev/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["IBM Plex Mono"],"display":"swap"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
