@@ -5,7 +5,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/jakeg/source/repo/jakegads.dev/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/home/jakeg/source/repo/jakegads.dev/src/pages/404.js"))),
   "component---src-pages-education-js": hot(preferDefault(require("/home/jakeg/source/repo/jakegads.dev/src/pages/education.js"))),
   "component---src-pages-experience-js": hot(preferDefault(require("/home/jakeg/source/repo/jakegads.dev/src/pages/experience.js"))),
