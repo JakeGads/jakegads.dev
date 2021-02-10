@@ -6,15 +6,17 @@ const Project = props => {
     <table className="project-table">
       <tbody>
         <a className="project-links" href={props.link}>
-          <tr>
-            <td className="project-name">{props.name || ""}</td>
-          </tr> 
-          <tr>
-          <td className="project-desc">{props.desc || ""}</td>
-          <td className="project-img">
-              <img src = {props.img || ""} alt=""></img>
-            </td>  
-          </tr>
+          <div className="project-text">
+            <tr>
+              <td className="project-name">{props.name || ""}</td>
+            </tr> 
+            <tr>
+              <td className="project-desc">{props.desc || ""}</td>  
+            </tr>
+          </div>
+          <div className="project-img-div">
+              <img src={props.img || ""} alt = "snap shot of the project"></img>
+          </div>
         </a>
       </tbody>
     </table>

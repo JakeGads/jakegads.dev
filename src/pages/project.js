@@ -32,7 +32,7 @@ export default props => {
 
   return (
     <Layout 
-      pageTitle="Project" 
+      pageTitle="Projects" 
       pageDescription="See what FOSS projects I'm working on"
     >
       {projects}
