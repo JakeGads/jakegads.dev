@@ -8,8 +8,9 @@ const Skill = props => {
       <tbody>
         <tr>
           <td className="item-name">{props.name || ""}</td>
-          <td className="item-when">{props.experience || ""}&nbsp;</td>
+          <td className="item-when">{props.experience || ""};</td>
         </tr>
+        <br></br>
         <tr>
           <td className="" colSpan={2}>
             <div className="skill-meter-wrapper">
