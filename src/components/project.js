@@ -8,12 +8,12 @@ const Project = props => {
         <a className="project-links" href={props.link}>
           <tr>
             <td className="project-name">{props.name || ""}</td>
-            <td className="project-desc">{props.desc || ""}</td>
-          </tr>
+          </tr> 
           <tr>
-            <td className="project-img">
+          <td className="project-desc">{props.desc || ""}</td>
+          <td className="project-img">
               <img src = {props.img || ""} alt=""></img>
-            </td>
+            </td>  
           </tr>
         </a>
       </tbody>

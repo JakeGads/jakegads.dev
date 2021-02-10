@@ -257,10 +257,10 @@ module.exports = {
         img: `project_imgs/github.png`
       }
     ],
-    //available_themes: ["great-gatsby", "master-yoda", "wonder-woman", "darth-vader", "luke-lightsaber"],
-    theme: "luke-lightsaber",
+    //available_themes: ["great-gatsby", "master-yoda", "wonder-woman", "darth-vader", "luke-lightsaber", "senate"],
+    theme: "senate",
     //fonts. Available: [default, programmer]
-    font: "programmer",
+    font: "default",
   },
   plugins: [
     // Make sure this plugin is first in the array of plugins
