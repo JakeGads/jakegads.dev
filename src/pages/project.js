@@ -29,10 +29,9 @@ export default props => {
     />
   ))
 
-
   return (
-    <Layout 
-      pageTitle="Projects" 
+    <Layout
+      pageTitle="Projects"
       pageDescription="See what FOSS projects I'm working on"
     >
       {projects}

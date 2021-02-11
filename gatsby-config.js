@@ -6,7 +6,7 @@ module.exports = {
     role: `FullStack Software Developer`,
     email: `me@jakegads.dev`,
     socialMedia: [
-      { name: "github",link: "https://github.com/gadzygadz" },
+      { name: "github", link: "https://github.com/gadzygadz" },
       { name: "linkedin", link: "https://www.linkedin.com/in/jacob-gadaleta/" },
       { name: "twitter", link: "https://twitter.com/gadzygadz" },
     ],
@@ -218,25 +218,25 @@ module.exports = {
         name: `JakeGads.dev`,
         desc: `this website, uses gatsby & is hosted w/ netlify`,
         link: `https://github.com/gadzygadz/jakegads.dev`,
-        img: `project_imgs/site.png`
+        img: `project_imgs/site.png`,
       },
       {
         name: `Auto Masker`,
         desc: `(demo | In progress) looks for faces in videos in order to place masks on faces`,
         link: `https://github.com/gadzygadz/SeniorSemMasker`,
-        img: `project_imgs/masker.png`
+        img: `project_imgs/masker.png`,
       },
       {
         name: `Data Final`,
         desc: `An analysis project where I used 3 sets of tools; R, Tableau, & Minitab`,
         link: `https://github.com/gadzygadz/data_final`,
-        img: `project_imgs/df.png`
+        img: `project_imgs/df.png`,
       },
       {
         name: `Network Programing`,
         desc: `A presentation / sample code of how to use python & various other languages in order to get, manipulate, or create content for the web`,
         link: `https://github.com/gadzygadz/Networking_Presentation`,
-        img: `project_imgs/networking.png`
+        img: `project_imgs/networking.png`,
       },
       {
         name: `Java Quickstart`,
@@ -246,7 +246,7 @@ module.exports = {
         I couldn't find content that I needed ...
         so I wrote my own book`,
         link: `https://github.com/gadzygadz/Java_QuickStart`,
-        img: `project_imgs/book.png`
+        img: `project_imgs/book.png`,
       },
       {
         name: `& many, many more`,
@@ -254,8 +254,8 @@ module.exports = {
         I have never stopped writing code so I have generated a 
         lot of projects`,
         link: `https://github.com/gadzygadz`,
-        img: `project_imgs/github.png`
-      }
+        img: `project_imgs/github.png`,
+      },
     ],
     //available_themes: ["great-gatsby", "master-yoda", "wonder-woman", "darth-vader", "luke-lightsaber", "senate"],
     theme: "senate",
@@ -273,14 +273,12 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-		`gatsby-plugin-less`,
+    `gatsby-plugin-less`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-            `IBM Plex Mono`,
-        ],
-				display: 'swap'
+        fonts: [`IBM Plex Mono`],
+        display: "swap",
       },
     },
   ],

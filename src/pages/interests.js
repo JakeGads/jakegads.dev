@@ -21,7 +21,15 @@ export default props => {
       pageDescription="Learn more about my interests and hoppies"
     >
       <ul>{interests}</ul>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </Layout>
   )
 }
