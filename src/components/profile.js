@@ -32,7 +32,9 @@ const Profile = props => {
   ))
   return (
     <>
-      <img src={profile_photo} alt={props.name} id="profile-img" />
+      <a href="Gadaleta_GeneralResume.pdf">
+        <img src={profile_photo} alt={props.name} id="profile-img" />
+      </a>
       <div id="profile-info-wrapper">
         <h4 id="profile-name">{props.name}</h4>
         <h6 id="profile-role">{props.role}</h6>
