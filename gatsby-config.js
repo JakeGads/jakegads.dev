@@ -31,7 +31,9 @@ module.exports = {
         </li>
       </ul>
       <br>
+      <br><br>
       <p>I'm also looking for a job, so you know ... If you believe that I may be a good match for your team please let me know</p>
+      <br>
       `,
     education: [
       {
