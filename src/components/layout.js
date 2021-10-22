@@ -28,7 +28,7 @@ const Layout = props => {
   const theme = data.site.siteMetadata.theme || "great-gatsby"
   const font = data.site.siteMetadata.font || "default"
   return (
-    <>
+    <div>
       <Helmet>
         <title>
           {props.pageTitle} - {data.site.siteMetadata.name || ""}
@@ -72,7 +72,7 @@ const Layout = props => {
           </div>
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 

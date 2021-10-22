@@ -33,11 +33,15 @@ export default props => {
   ))
 
   return (
-    <Layout
-      pageTitle="Education"
-      pageDescription="Learn more about my education background"
-    >
+    <div>
+      <Layout
+        pageTitle="Education"
+        pageDescription="Learn more about my education background"
+      >
+      
       {education}
-    </Layout>
+      
+      </Layout>
+    </div>
   )
 }

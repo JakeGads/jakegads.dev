@@ -15,21 +15,24 @@ export default props => {
   const interests = data.site.siteMetadata.interests.map((item, index) => (
     <li key={index}>{item}</li>
   ))
+
+    // `.fill-window {
+    //   height: 100%;
+    //   position: absolute;
+    //   left: 0;
+    //   width: 100%;
+    //   overflow: hidden;
+    //   }`
+
   return (
-    <Layout
-      pageTitle="Interests"
-      pageDescription="Learn more about my interests and hoppies"
-    >
-      <ul>{interests}</ul>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-    </Layout>
+    <div>
+      <Layout
+        pageTitle="Interests"
+        pageDescription="Learn more about my interests and hobbies"
+        style={{innerHeight: 100}}
+      >
+        <ul>{interests}</ul>
+      </Layout>
+    </div>
   )
 }
