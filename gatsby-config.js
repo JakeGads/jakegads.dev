@@ -69,6 +69,13 @@ module.exports = {
     ],
     experience: [
       {
+        role: "Associate Software Developer",
+        when: "2021-Present",
+        company: "Computer Enterprise Incorporated America",
+        where: "Remote",
+        moreInfo: `Work with Angular, React, .NET for a variety of clients.`,
+      },
+      {
         role: "Development Intern",
         when: "2021- May 2021",
         company: "Sigma AI",
